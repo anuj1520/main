@@ -1,0 +1,24 @@
+.main3-container{
+  background-color: #5F9EA0; 
+    background-size: cover;
+  width: 1200px;
+  height:920px;
+  margin: 0 auto;
+  background-blend-mode: lighten;
+
+}
+.vs3{ 
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap:20px;
+  justify-content: center;
+  padding-bottom: 50px;
+   
+} 
+.post3{
+    border:50px solid var(--borderColor);
+  -webkit-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  -moz-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+}

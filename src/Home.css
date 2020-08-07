@@ -1,0 +1,69 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+
+
+
+hr {
+  border-left: 6px ;
+  border-color:black;
+  border-width: 3px;
+  max-width: 6px;
+  height: 100px;
+  
+}
+
+.ga{
+   gap:20px;
+    padding:15px;
+}
+
+.main1-container{
+  background-image: url("bg.jfif"); 
+    background-size: cover;
+  width: 1200px;
+  height:660px;
+  margin: 0 auto;
+  background-blend-mode: lighten;
+
+}
+.vs{ 
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 640px);
+    gap:20px;
+  justify-content: center;
+  padding-bottom: 50px;
+   
+} 
+
+.post1{
+  border:100px solid var(--borderColor);
+  -webkit-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  -moz-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+}

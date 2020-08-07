@@ -1,0 +1,27 @@
+
+
+.main2-container{
+  background-color: #DCDCDC; 
+    background-size: cover;
+  width: 1200px;
+  height:680px;
+  margin: 0 auto;
+  background-blend-mode: lighten;
+
+}
+.vs2{ 
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 640px);
+    gap:20px;
+  justify-content: center;
+  padding-bottom: 50px;
+   
+} 
+
+.post2{
+    border:100px solid var(--borderColor);
+  -webkit-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  -moz-box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+  box-shadow: -20px 70px 21px -90px rgba(0,0,0,0.75);
+}

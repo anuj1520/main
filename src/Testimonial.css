@@ -1,0 +1,60 @@
+.testimonials-container {
+    background-color:  #5F9EA0;
+    border-radius: 15px;
+    color: #ffffff;
+    
+      padding-bottom: 50px;
+}
+
+.testimonial {
+    line-height: 28px;
+    text-align: justify;
+}
+
+.centered-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.user-details {
+    margin-left: 10px;
+}
+
+.username {
+    margin: 0;
+}
+
+.role {
+    font-weight: normal;
+    margin: 2px 0;
+}
+
+
+
+.main4-container{
+ 
+    background-size: cover;
+  width: 1200px;
+  height:640px;
+  margin: 0 auto;
+  background-blend-mode: lighten;
+
+}
+
+.vs4{ 
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 640px);
+    gap:20px;
+  justify-content: center;
+  padding-bottom: 50px;
+   padding-top: 50px;
+} 
